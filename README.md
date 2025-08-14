@@ -13,10 +13,7 @@ A structured collection of small projects created while learning HTML and web de
 - [Video Compilation Page](basic-html/video-compilation-page/)
 
 ### 🔤 Semantic HTML
-- [Recipe Page](semantic-html/recipe-page/)
 
 ### 📝 Forms and Tables
-- [Registration Form](forms-and-tables/registration-form/)
 
 ### ♿ Accessibility
-- [Accessible Survey](accessibility/accessible-survey/)
