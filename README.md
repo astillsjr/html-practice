@@ -23,3 +23,6 @@ A structured collection of small projects created while learning HTML and web de
 - [Book Catalog Table](forms-and-tables/book-catalog/)
 
 ### ♿ Accessibility
+- [Checkout Page](accessibility/checkout-page/)
+- [Movie Review Page](accessibility/movie-review-page/)
+- [Multimedia Player](accessibility/multimedia-player/)
