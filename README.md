@@ -17,5 +17,9 @@ A structured collection of small projects created while learning HTML and web de
 - [Event Hub](semantic-html/event-hub/)
 
 ### 📝 Forms and Tables
+- [Hotel Feedback Form](forms-and-tables/hotel-feedback/)
+- [Survey Form](forms-and-tables/survey-form/)
+- [Final Exams Table](forms-and-tables/final-exams-table/)
+- [Book Catalog Table](forms-and-tables/book-catalog/)
 
 ### ♿ Accessibility
