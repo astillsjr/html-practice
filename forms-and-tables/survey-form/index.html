@@ -5,6 +5,55 @@
     <title>Survey Form</title>
   </head>
   <body>
-    
+    <header>
+      <h1 id="title">Undergradute Survey Form</h1>
+      <p id="description">Thank you for taking the time to share your experience</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Personal Infromation</legend>
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required /> <br/>
+          <label for="email" id="email-label">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Email" required /> <br/>
+          <label for="number" id="number-label">Age (optional)</label>
+          <input type="number" id="number" name="age" placeholder="Age" min="10" max="99" /> 
+        </fieldset>
+        <fieldset>
+          <legend>Current Experience</legend>
+          <p>What year in undergrad are you?</p> 
+          <select id="dropdown" name="year">
+            <option value="freshman">Freshman</option>
+            <option value="softmore">Softmore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+          </select>
+          <p>Have you had an internship yet?</p>
+          <label for="yes-option">Yes</label>
+          <input type="radio" id="yes-option" name="expereince" value="yes" />
+          <label for="no-option">No</label>
+          <input type="radio" id="no-option" name="expereince" value="no" />
+          <p>What avenues have you already tried to find an internship? (Check all that apply)</p>
+          <input type="checkbox" id="linkedin" name="linkedin" value="linkedin" />
+          <label for="linkedin">LinkedIn</label>
+          <input type="checkbox" id="indeed" name="indeed" value="indeed" />
+          <label for="indeed">Indeed</label>
+          <input type="checkbox" id="glassdoor" name="glassdoor" value="glassdoor" />
+          <label for="glassdoor">Glassdoor</label>
+          <input type="checkbox" id="handshake" name="handshake" value="handshake" />
+          <label for="handshake">Handshake</label>
+          <input type="checkbox" id="career-fairs" name="career-fairs" value="career-fairs">
+          <label for="career-fairs">Career Fairs</label>
+          <input type="checkbox" id="school-faculty" name="school-faculty" value="school-faculty">
+          <label for="school-faculty">Professors & Advisors</label>
+          <input type="checkbox" id="other" name="other" value="other">
+          <label for="other">Other</label>
+        </fieldset>
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea> <br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
